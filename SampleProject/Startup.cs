@@ -33,13 +33,24 @@ namespace SampleProject
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            //DefaultFilesOptions options = new DefaultFilesOptions();
+            //options.DefaultFileNames.Clear();
+            //options.DefaultFileNames.Add("default.html");
+            //app.UseDefaultFiles(options);
+            //app.UseStaticFiles();
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("default.html");
+            app.UseFileServer(fileServerOptions);
 
+            app.UseRouting();
+            
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync(_config["MyKey"]);
+                    await context.Response.WriteAsync("Hello From 1st MiddleWare");
                 });
             });
         }
