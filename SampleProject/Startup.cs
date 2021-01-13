@@ -30,7 +30,11 @@ namespace SampleProject
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions()
+                {
+                    SourceCodeLineCount = 10
+                };
+                app.UseDeveloperExceptionPage(developerExceptionPageOptions);
             }
 
             //DefaultFilesOptions options = new DefaultFilesOptions();
@@ -40,7 +44,7 @@ namespace SampleProject
             //app.UseStaticFiles();
             FileServerOptions fileServerOptions = new FileServerOptions();
             fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("default.html");
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("default1.html");
             app.UseFileServer(fileServerOptions);
 
             app.UseRouting();
@@ -50,6 +54,7 @@ namespace SampleProject
             {
                 endpoints.MapGet("/", async context =>
                 {
+                    throw new Exception("Somwthing went wrong");
                     await context.Response.WriteAsync("Hello From 1st MiddleWare");
                 });
             });

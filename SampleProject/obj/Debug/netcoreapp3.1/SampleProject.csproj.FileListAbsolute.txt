@@ -6,7 +6,6 @@ D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.r
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.runtimeconfig.dev.json
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.dll
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.pdb
-D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csprojAssemblyReference.cache
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.AssemblyInfoInputs.cache
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.AssemblyInfo.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csproj.CoreCompileInputs.cache
