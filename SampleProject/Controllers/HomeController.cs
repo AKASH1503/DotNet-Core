@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SampleProject.Models;
 
-namespace SampleProject.Controller
+namespace SampleProject.Controllers
 {
-    public class HomeController : ControllerBase
+    public class HomeController : Controller
     {
-        private IEmployeeRepository _employeeRepository;
+        private readonly IEmployeeRepository _employeeRepository;
 
         /// <summary>
         /// Its is Controctur Injection
@@ -22,6 +22,11 @@ namespace SampleProject.Controller
         public string Index()
         {
             return _employeeRepository.GetEmployee(2).Name;
+        }
+        public ViewResult Details()
+        {
+            Employee model = _employeeRepository.GetEmployee(1);
+            return View(model);
         }
     }
 }

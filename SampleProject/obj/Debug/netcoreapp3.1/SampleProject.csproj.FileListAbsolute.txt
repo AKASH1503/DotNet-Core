@@ -18,3 +18,14 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.d
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.pdb
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.genruntimeconfig.cache
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csprojAssemblyReference.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.Views.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\SampleProject.Views.pdb
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.RazorAssemblyInfo.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.RazorAssemblyInfo.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.TagHelpers.input.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.TagHelpers.output.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.RazorCoreGenerate.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.RazorTargetAssemblyInfo.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.Views.pdb
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csproj.CopyComplete
