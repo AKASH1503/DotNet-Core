@@ -18,7 +18,7 @@ namespace SampleProject.Controllers
         public HomeController(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
-        }  
+        }
         public string Index()
         {
             return _employeeRepository.GetEmployee(2).Name;
@@ -26,6 +26,8 @@ namespace SampleProject.Controllers
         public ViewResult Details()
         {
             Employee model = _employeeRepository.GetEmployee(1);
+            ViewData["Employee"] = model;
+            ViewData["PageTitle"] = "Employee Details";
             return View(model);
         }
     }
