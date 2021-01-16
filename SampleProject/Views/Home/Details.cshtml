@@ -1,18 +1,19 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿@model SampleProject.Models.Employee
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
 </head>
 <body>
     <h1>@ViewBag.PageTitle</h1>
-    
+
     <div>
-        Name:@ViewBag.Employee.Name
+        Name:@Model.Name
     </div>
     <div>
-        Email:@ViewBag.Employee.Email
+        Email:@Model.Email
     </div>
     <div>
-        Dept:@ViewBag.Employee.Department
+        Dept:@Model.Department
     </div>
 </body>
 </html>
