@@ -17,6 +17,12 @@ namespace SampleProject.Models
                 new Employee(){ Id=3,Name="Akash3",Email="abc3@gamil.com",Department="IT3"}
             };
         }
+
+        public IEnumerable<Employee> GetAllEmployee()
+        {
+            return _employeeList;
+        }
+
         public Employee GetEmployee(int Id)
         {
             return _employeeList.FirstOrDefault(e=>e.Id==Id);

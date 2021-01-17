@@ -29,3 +29,4 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Hom
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.RazorTargetAssemblyInfo.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.Views.pdb
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csproj.CopyComplete
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
