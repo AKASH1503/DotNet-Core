@@ -1,19 +1,16 @@
 ﻿@model SampleProject.ViewModels.HomeDetailsViewModel
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-</head>
-<body>
-    <h1>@Model.PageTitle</h1>
 
-    <div>
-        Name:@Model.employee.Name
-    </div>
-    <div>
-        Email:@Model.employee.Email
-    </div>
-    <div>
-        Dept:@Model.employee.Department
-    </div>
-</body>
-</html>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title= "Details Page";
+}
+
+<div>
+    Name:@Model.employee.Name
+</div>
+<div>
+    Email:@Model.employee.Email
+</div>
+<div>
+    Dept:@Model.employee.Department
+</div>
