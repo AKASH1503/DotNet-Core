@@ -25,7 +25,7 @@ namespace SampleProject.Controllers
             var model= _employeeRepository.GetAllEmployee(); ;
             return View(model);
         }
-        public ViewResult Details()
+        public ViewResult Details(int id)
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {

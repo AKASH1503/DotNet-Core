@@ -26,7 +26,7 @@ namespace SampleProject
         {
             services.AddMvc(options => options.EnableEndpointRouting = false);
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
-            services.AddSingleton<IEmployeeRepository,MockEmployeeRepository>();
+            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,11 +52,15 @@ namespace SampleProject
             //app.UseFileServer(fileServerOptions);
 
             app.UseRouting();
-            
+
             app.UseStaticFiles();
             //Calling after UseStaticFiles
-            app.UseMvcWithDefaultRoute();
-            
+            //app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
+
             //app.UseEndpoints(endpoints =>
             //{
             //    endpoints.MapGet("/", async context =>
