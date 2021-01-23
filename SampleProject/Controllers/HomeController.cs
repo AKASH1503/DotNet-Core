@@ -9,7 +9,7 @@ using SampleProject.ViewModels;
 namespace SampleProject.Controllers
 {
     //[Route("Home")]
-    [Route("[controller]/[action]")]
+    //[Route("[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -23,10 +23,10 @@ namespace SampleProject.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        [Route("")]
+        //[Route("")]
         //[Route("Index")]
         //[Route("[action]")]
-        [Route("~/")]
+        //[Route("~/")]
         public ViewResult Index()
         {
             var model = _employeeRepository.GetAllEmployee(); ;
@@ -36,7 +36,7 @@ namespace SampleProject.Controllers
 
         //[Route("Details/{id?}")]
         //[Route("[action]/{id?}")]
-        [Route("{id?}")]
+        //[Route("{id?}")]
         public ViewResult Details(int? id)
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()

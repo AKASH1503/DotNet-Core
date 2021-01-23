@@ -56,11 +56,11 @@ namespace SampleProject
             app.UseStaticFiles();
             //Calling after UseStaticFiles
             //app.UseMvcWithDefaultRoute();
-            //app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            //});
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
+            //app.UseMvc();
 
             //app.UseEndpoints(endpoints =>
             //{
