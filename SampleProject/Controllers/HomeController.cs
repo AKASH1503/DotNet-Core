@@ -31,7 +31,7 @@ namespace SampleProject.Controllers
         {
             var model = _employeeRepository.GetAllEmployee(); ;
             return View(model);
-        
+
         }
 
         //[Route("Details/{id?}")]
@@ -41,15 +41,23 @@ namespace SampleProject.Controllers
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                employee = _employeeRepository.GetEmployee(id??1),
+                employee = _employeeRepository.GetEmployee(id ?? 1),
                 PageTitle = "Employee Details"
             };
             return View(homeDetailsViewModel);
         }
 
-        public ViewResult Create() 
+        [HttpGet]
+        public ViewResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        public RedirectToActionResult Create(Employee employee)
+        {
+            Employee newEmployee = _employeeRepository.Add(employee);
+            return RedirectToAction("details", new { id = newEmployee.Id });
         }
     }
 }

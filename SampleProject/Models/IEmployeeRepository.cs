@@ -9,5 +9,6 @@ namespace SampleProject.Models
     {
         Employee GetEmployee(int Id);
         IEnumerable<Employee> GetAllEmployee();
+        Employee Add(Employee employee);
     }
 }
