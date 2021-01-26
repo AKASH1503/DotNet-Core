@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0PGMrt+e8ACEF2p2PeZbKeFQwg1Kgx26FpDE5Q8WcPu46v6BqjSBGZQBMSuROtqff9O5z0Gb7N48jUNeNKgMwA==",
+  "dgSpecHash": "iaFN7ZEp23q0piaLbi0paU2QTn/sdTUK8HY22D7KOTKwxVV3+BElf6hin1ER8wJO3Eqm9E4AWaAOrdpU+ReBnQ==",
   "success": true,
   "projectFilePath": "D:\\cSharp\\Core\\DotNet-Core\\SampleProject\\SampleProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Akash\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
+    "C:\\Users\\Akash\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\Akash\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
   "logs": []
 }
