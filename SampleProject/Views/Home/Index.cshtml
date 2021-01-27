@@ -4,18 +4,39 @@
     ViewBag.Title = "Employee List";
 }
 
-<div class="card-deck">
+@*<div class="card-deck">
     @foreach (var employee in Model)
     {
+        var photoPath = "~/Images/" + employee.PhotoPath ?? "abc.jpg";
         <div class="card m-3">
             <div class="card-header">
                 <h1>@employee.Name</h1>
             </div>
-            <img class="card-img-top" src="~/images/abc.jpg" asp-append-version="true" />
+            <img class="card-img-top" src="@photoPath" asp-append-version="true" />
             <div class="card-footer text-center">
-                <a asp-controller="home" asp-action="details" asp-rout-id="@employee.Id"
+                <a asp-controller="Home" asp-action="Details" asp-rout-id="@employee.Id"
                    class="btn btn-primary m-1">View</a>
-                
+
+                <a href="a" class="btn btn-primary m-1">Edit</a>
+                <a href="a" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>*@
+
+<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        var photoPath = "~/Images/" + (employee.PhotoPath ?? "abc.jpg");
+        <div class="card m-3" style="min-width:18rem;max-width:50.5%;">
+            <div class="card-header">
+                <h1>@employee.Name</h1>
+            </div>
+            <img class="card-img-top imageThumbnail" src="@photoPath" asp-append-version="true" />
+            <div class="card-footer text-center">
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id"
+                   class="btn btn-primary m-1">View</a>
+
                 <a href="a" class="btn btn-primary m-1">Edit</a>
                 <a href="a" class="btn btn-danger m-1">Delete</a>
             </div>

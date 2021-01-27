@@ -2,6 +2,7 @@
 
 @{
     ViewBag.Title = "Details Page";
+    var photoPath = "/Images/" + (Model.employee.PhotoPath ?? "abc.jpg");
 }
 
 <div class="row justify-content-center m-3">
@@ -11,7 +12,7 @@
                 <h1>@Model.employee.Name</h1>
             </div>
             <div class="card-body text-center">
-                <img class="card-img-top" src="~/images/abc.jpg" />
+                <img class="card-img-top" src="@photoPath" asp-append-version="true" />
                 <h4>Employee Id : @Model.employee.Id</h4>
                 <h4>Email : @Model.employee.Email</h4>
                 <h4>Department : @Model.employee.Department</h4>
