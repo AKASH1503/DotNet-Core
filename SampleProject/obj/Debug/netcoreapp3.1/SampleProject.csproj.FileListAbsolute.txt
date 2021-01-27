@@ -75,3 +75,5 @@ D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\runtimes\win-x8
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
