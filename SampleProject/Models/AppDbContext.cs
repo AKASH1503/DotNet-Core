@@ -13,5 +13,10 @@ namespace SampleProject.Models
 
         }
         public DbSet<Employee> Employee { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.seed();
+        }
     }
 }
