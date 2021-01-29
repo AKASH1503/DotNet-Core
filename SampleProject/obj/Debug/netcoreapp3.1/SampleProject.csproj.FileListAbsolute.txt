@@ -77,3 +77,4 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.d
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.pdb
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.genruntimeconfig.cache
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csprojAssemblyReference.cache
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
