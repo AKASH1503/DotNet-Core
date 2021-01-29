@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SampleProject.Models;
 using SampleProject.ViewModels;
@@ -64,12 +65,15 @@ namespace SampleProject.Controllers
             if (ModelState.IsValid)
             {
                 string uniqueFileName = null;
-                if (model.Photo != null)
+                if (model.Photos != null && model.Photos.Count>0)
                 {
-                    string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
-                    uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Photo.FileName;
-                    string filepath = Path.Combine(uploadsFolder, uniqueFileName);
-                    model.Photo.CopyTo(new FileStream(filepath, FileMode.Create));
+                    foreach (IFormFile photo in model.Photos)
+                    {
+                        string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
+                        uniqueFileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
+                        string filepath = Path.Combine(uploadsFolder, uniqueFileName);
+                        photo.CopyTo(new FileStream(filepath, FileMode.Create)); 
+                    }
                 }
                 Employee newEmployee = new Employee
                 {
