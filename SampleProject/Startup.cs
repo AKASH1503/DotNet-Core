@@ -44,6 +44,7 @@ namespace SampleProject
             else 
             {
                 //app.UseStatusCodePages();
+                app.UseExceptionHandler("/Error");
                 app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
