@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,13 @@ namespace SampleProject.Controllers
         [Route("Error/{statusCode}")]
         public IActionResult HttpStatusCodeHandeling(int statusCode)
         {
+            var statusCodeResult = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
             switch (statusCode)
             {
                 case 404:
                     ViewBag.ErrorMessage = "Sory, requested page not Found";
+                    ViewBag.QS= statusCodeResult.OriginalQueryString;
+                    ViewBag.Path = statusCodeResult.OriginalPath;
                     break;
                 default:
                     break;

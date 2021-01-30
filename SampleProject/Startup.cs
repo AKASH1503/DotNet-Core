@@ -44,7 +44,7 @@ namespace SampleProject
             else 
             {
                 //app.UseStatusCodePages();
-                app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
             //DefaultFilesOptions options = new DefaultFilesOptions();
