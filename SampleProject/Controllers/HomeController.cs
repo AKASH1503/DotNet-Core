@@ -44,9 +44,17 @@ namespace SampleProject.Controllers
         //[Route("{id?}")]
         public ViewResult Details(int? id)
         {
+            Employee employee = _employeeRepository.GetEmployee(id ?? 1);
+
+            if (employee == null)
+            {
+                Response.StatusCode = 404;
+                return View("EmployeeNotFound", id.Value);
+            }
+
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                employee = _employeeRepository.GetEmployee(id ?? 1),
+                employee = employee,
                 PageTitle = "Employee Details"
             };
             return View(homeDetailsViewModel);
