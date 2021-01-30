@@ -79,3 +79,4 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.g
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\SampleProject.csprojAssemblyReference.cache
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs

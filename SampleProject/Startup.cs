@@ -39,11 +39,12 @@ namespace SampleProject
         {
             if (env.IsDevelopment())
             {
-                DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions()
-                {
-                    SourceCodeLineCount = 10
-                };
-                app.UseDeveloperExceptionPage(developerExceptionPageOptions);
+                app.UseDeveloperExceptionPage();
+            }
+            else 
+            {
+                //app.UseStatusCodePages();
+                app.UseStatusCodePagesWithRedirects("/Error/{0}");
             }
 
             //DefaultFilesOptions options = new DefaultFilesOptions();
