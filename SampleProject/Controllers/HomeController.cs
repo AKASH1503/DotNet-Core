@@ -44,6 +44,7 @@ namespace SampleProject.Controllers
         //[Route("{id?}")]
         public ViewResult Details(int? id)
         {
+            throw new Exception("Error in Details View");
             Employee employee = _employeeRepository.GetEmployee(id ?? 1);
 
             if (employee == null)

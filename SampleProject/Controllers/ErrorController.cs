@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,13 @@ namespace SampleProject.Controllers
 {
     public class ErrorController : Controller
     {
+        private readonly ILogger<ErrorController> logger;
+
+        public ErrorController(ILogger<ErrorController> logger)
+        {
+            this.logger = logger;
+        }
+
         [Route("Error/{statusCode}")]
         public IActionResult HttpStatusCodeHandeling(int statusCode)
         {
@@ -18,8 +26,8 @@ namespace SampleProject.Controllers
             {
                 case 404:
                     ViewBag.ErrorMessage = "Sory, requested page not Found";
-                    ViewBag.QS = statusCodeResult.OriginalQueryString;
-                    ViewBag.Path = statusCodeResult.OriginalPath;
+                    logger.LogWarning($"404 Error Occured. Path ={statusCodeResult.OriginalPath}" +
+                        $" and QS = {statusCodeResult.OriginalQueryString}");
                     break;
                 default:
                     break;
@@ -31,9 +39,8 @@ namespace SampleProject.Controllers
         public IActionResult Error()
         {
             var exceptionDetails = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
-            ViewBag.ExceptionPath = exceptionDetails.Path;
-            ViewBag.ExceptionMessage = exceptionDetails.Error.Message;
-            ViewBag.StackTrace = exceptionDetails.Error.StackTrace;
+            logger.LogError($"The Path {exceptionDetails.Path} throw as exception " +
+                $"{exceptionDetails.Error}");
             return View("Error");
         }
     }
