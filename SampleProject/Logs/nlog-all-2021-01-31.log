@@ -89,3 +89,4 @@
 2021-01-31 21:41:52.4784|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
 2021-01-31 22:05:10.2969|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
 2021-01-31 22:05:26.2661|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresDigit.
+2021-01-31 22:15:38.1824|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
