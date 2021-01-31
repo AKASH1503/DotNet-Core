@@ -84,3 +84,5 @@
 2021-01-31 12:55:14.1149|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
 2021-01-31 12:55:14.1149|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
 2021-01-31 12:55:14.1311|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log
+2021-01-31 14:03:24.7194|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/account/register and QS = 
+2021-01-31 14:04:10.8699|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/account/register and QS = 
