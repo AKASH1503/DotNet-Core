@@ -85,3 +85,8 @@ D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\nlog.config
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.dll
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll

@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace SampleProject
 {
@@ -28,7 +29,8 @@ namespace SampleProject
         {
             services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(_config.GetConnectionString("EmployeeDbConnection")));
-
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
@@ -41,7 +43,7 @@ namespace SampleProject
             {
                 app.UseDeveloperExceptionPage();
             }
-            else 
+            else
             {
                 //app.UseStatusCodePages();
                 app.UseExceptionHandler("/Error");
@@ -61,6 +63,7 @@ namespace SampleProject
             app.UseRouting();
 
             app.UseStaticFiles();
+            app.UseAuthentication();
             //Calling after UseStaticFiles
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
