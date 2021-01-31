@@ -81,3 +81,7 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Hom
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\nlog.config
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
