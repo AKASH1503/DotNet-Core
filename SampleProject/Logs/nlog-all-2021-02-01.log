@@ -275,3 +275,28 @@
 2021-02-01 20:21:55.4584|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
 2021-02-01 20:22:27.9489|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
 2021-02-01 20:22:27.9804|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
+2021-02-01 22:04:40.7458|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-01 22:05:54.4094|WARN|SampleProject.Controllers.HomeController|Warning Log
+2021-02-01 22:05:54.4094|ERROR|SampleProject.Controllers.HomeController|Error Log
+2021-02-01 22:05:54.4094|FATAL|SampleProject.Controllers.HomeController|Critical Log
+2021-02-01 22:05:54.4094|TRACE|SampleProject.Models.SqlEmplyeeRepository|Trace Log
+2021-02-01 22:05:54.4094|DEBUG|SampleProject.Models.SqlEmplyeeRepository|Debug Log
+2021-02-01 22:05:54.4094|INFO|SampleProject.Models.SqlEmplyeeRepository|Information Log
+2021-02-01 22:05:54.4094|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
+2021-02-01 22:05:54.4094|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
+2021-02-01 22:05:54.4094|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log
+2021-02-01 22:10:04.0990|WARN|SampleProject.Controllers.HomeController|Warning Log
+2021-02-01 22:10:04.1576|ERROR|SampleProject.Controllers.HomeController|Error Log
+2021-02-01 22:10:04.1576|FATAL|SampleProject.Controllers.HomeController|Critical Log
+2021-02-01 22:10:04.1576|TRACE|SampleProject.Models.SqlEmplyeeRepository|Trace Log
+2021-02-01 22:10:04.1576|DEBUG|SampleProject.Models.SqlEmplyeeRepository|Debug Log
+2021-02-01 22:10:04.1576|INFO|SampleProject.Models.SqlEmplyeeRepository|Information Log
+2021-02-01 22:10:04.1576|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
+2021-02-01 22:10:04.1576|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
+2021-02-01 22:10:04.1576|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log
+2021-02-01 22:10:06.0242|TRACE|SampleProject.Models.SqlEmplyeeRepository|Trace Log
+2021-02-01 22:10:06.0242|DEBUG|SampleProject.Models.SqlEmplyeeRepository|Debug Log
+2021-02-01 22:10:06.0242|INFO|SampleProject.Models.SqlEmplyeeRepository|Information Log
+2021-02-01 22:10:06.0341|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
+2021-02-01 22:10:06.0341|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
+2021-02-01 22:10:06.0341|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log

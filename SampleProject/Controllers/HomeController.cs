@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -13,6 +14,7 @@ namespace SampleProject.Controllers
 {
     //[Route("Home")]
     //[Route("[controller]/[action]")]
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -36,6 +38,7 @@ namespace SampleProject.Controllers
         //[Route("Index")]
         //[Route("[action]")]
         //[Route("~/")]
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var model = _employeeRepository.GetAllEmployee(); ;
@@ -72,12 +75,14 @@ namespace SampleProject.Controllers
         }
 
         [HttpGet]
+        //[Authorize]
         public ViewResult Create()
         {
             return View();
         }
 
         [HttpGet]
+        //[Authorize]
         public ViewResult Edit(int id)
         {
             Employee employee = _employeeRepository.GetEmployee(id);
@@ -93,6 +98,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
+        //[Authorize]
         public IActionResult Edit(EmployeeEditViewModel model)
         {
             if (ModelState.IsValid)
@@ -134,6 +140,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
+        //[Authorize]
         public IActionResult Create(EmployeeCreateViewModel model)
         {
             if (ModelState.IsValid)

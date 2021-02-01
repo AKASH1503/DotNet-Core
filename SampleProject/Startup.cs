@@ -12,6 +12,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SampleProject
 {
@@ -36,7 +38,14 @@ namespace SampleProject
             })
                 .AddEntityFrameworkStores<AppDbContext>();
 
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddMvc(options =>
+            {
+                options.EnableEndpointRouting = false;
+                var Policy = new AuthorizationPolicyBuilder().
+                                    RequireAuthenticatedUser().
+                                    Build();
+                options.Filters.Add(new AuthorizeFilter(policy:Policy));
+            });
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
         }
