@@ -27,6 +27,13 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
+        public async Task<ActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return RedirectToAction("index","home");
+        }
+
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
