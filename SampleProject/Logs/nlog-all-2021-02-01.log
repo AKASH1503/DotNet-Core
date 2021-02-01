@@ -271,3 +271,7 @@
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
 2021-02-01 19:37:23.9718|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An exception was thrown attempting to execute the error handler.
 2021-02-01 19:37:24.0019|ERROR|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571293206380567", Request ID "80000018-0000-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+2021-02-01 20:21:55.3776|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-01 20:21:55.4584|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
+2021-02-01 20:22:27.9489|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-01 20:22:27.9804|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
