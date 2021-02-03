@@ -71,7 +71,7 @@ namespace SampleProject.Controllers
             {
                 var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
-                {
+                {     
                     if (!String.IsNullOrEmpty(returnURL))
                     {
                         return LocalRedirect(returnURL);

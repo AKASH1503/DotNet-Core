@@ -14,3 +14,4 @@
 2021-02-03 14:39:09.3914|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/%2Fhome%2Fcreate and QS = 
 2021-02-03 14:39:21.7704|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/home/Fcreate and QS = 
 2021-02-03 14:46:36.7787|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-03 14:56:31.0561|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
