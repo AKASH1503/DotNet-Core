@@ -71,7 +71,7 @@ namespace SampleProject.Controllers
             {
                 var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
-                {     
+                {
                     if (!String.IsNullOrEmpty(returnURL))
                     {
                         return LocalRedirect(returnURL);
@@ -84,6 +84,21 @@ namespace SampleProject.Controllers
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
             }
             return View(model);
+        }
+
+        [AcceptVerbs("Get", "Post")]
+        [AllowAnonymous]
+        public async Task<IActionResult> IsEmailInUse(string email)
+        {
+            var user = await userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return Json(true);
+            }
+            else
+            {
+                return Json($"Email {email} is already in use");
+            }
         }
     }
 }

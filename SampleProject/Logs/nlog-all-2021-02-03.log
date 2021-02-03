@@ -15,3 +15,15 @@
 2021-02-03 14:39:21.7704|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/home/Fcreate and QS = 
 2021-02-03 14:46:36.7787|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
 2021-02-03 14:56:31.0561|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-03 15:10:31.8081|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 15:10:31.8454|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 15:10:31.8454|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 15:11:43.4258|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 15:11:43.4707|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 15:11:43.4707|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 15:12:44.8447|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 15:12:44.9163|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 15:12:44.9273|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 15:13:29.3796|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 15:13:29.4431|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 15:13:29.4431|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
