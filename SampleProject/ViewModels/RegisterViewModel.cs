@@ -25,5 +25,7 @@ namespace SampleProject.ViewModels
         [Compare("Password",
             ErrorMessage = "Password and Confirm Password Dos not match")]
         public string ConfirmPassword { get; set; }
+
+        public string City { get; set; }
     }
 }

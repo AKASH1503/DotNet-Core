@@ -31,7 +31,7 @@ namespace SampleProject
         {
             services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(_config.GetConnectionString("EmployeeDbConnection")));
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequiredLength = 5;
                 options.Password.RequiredUniqueChars = 1;
