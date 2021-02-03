@@ -56,3 +56,13 @@
 2021-02-03 20:59:58.2994|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2021-02-03 20:59:58.3333|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-03 20:59:58.3333|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 21:37:13.2232|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 21:37:13.2553|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 21:37:13.2553|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 21:42:47.8035|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 21:42:47.8369|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 21:42:47.8369|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 21:42:57.8485|WARN|Microsoft.AspNetCore.Identity.RoleManager|Role b2a57d31-9850-42b5-b0df-aad0264f97ae validation failed: DuplicateRoleName.
+2021-02-03 21:43:16.0753|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 21:43:16.1055|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 21:43:16.1087|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
