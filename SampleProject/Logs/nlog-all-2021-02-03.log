@@ -39,3 +39,20 @@
 2021-02-03 20:38:47.6406|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2021-02-03 20:38:47.7012|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-03 20:38:47.7066|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 20:48:58.5711|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 20:48:58.6016|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 20:48:58.6016|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 20:49:34.0015|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 20:49:34.0320|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 20:49:34.0320|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 20:49:52.4605|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CreateRole' was not found. Searched locations: /Views/Administrator/CreateRole.cshtml, /Views/Shared/CreateRole.cshtml, /Pages/Shared/CreateRole.cshtml
+2021-02-03 20:49:53.3898|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-03 20:50:34.3982|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 20:50:34.4290|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 20:50:34.4290|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 20:51:18.7616|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 20:51:18.7916|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 20:51:18.7916|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-03 20:59:58.2994|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-03 20:59:58.3333|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-03 20:59:58.3333|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
