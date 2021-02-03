@@ -74,7 +74,7 @@ namespace SampleProject.Controllers
                 {
                     if (!String.IsNullOrEmpty(returnURL))
                     {
-                        return Redirect(returnURL);
+                        return LocalRedirect(returnURL);
                     }
                     else
                     {
