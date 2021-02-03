@@ -1,0 +1,15 @@
+2021-02-03 14:26:02.7379|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-03 14:26:02.8050|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
+2021-02-03 14:26:11.3516|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:26:11.5988|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-03 14:27:14.5795|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-03 14:27:14.5795|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 31b46106-6da5-403a-99a6-a95c05e86897 failed to provide the correct password.
+2021-02-03 14:27:21.3163|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:29:59.9089|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:30:49.0600|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:31:38.9614|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:32:32.2629|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:37:41.5676|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-03 14:39:01.4502|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Account/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:39:09.3914|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/%2Fhome%2Fcreate and QS = 
+2021-02-03 14:39:21.7704|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/home/Fcreate and QS = 

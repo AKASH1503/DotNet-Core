@@ -76,7 +76,7 @@ namespace SampleProject.Controllers
 
         [HttpGet]
         //[Authorize]
-        public ViewResult Create()
+        public ViewResult create()
         {
             return View();
         }
