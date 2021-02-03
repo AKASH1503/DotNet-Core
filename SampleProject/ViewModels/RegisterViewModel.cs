@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SampleProject.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,6 +13,7 @@ namespace SampleProject.ViewModels
         [Required]
         [EmailAddress]
         [Remote(action: "IsEmailInUse", controller: "Account")]
+        [ValidEmailDomain(allowDomain: "gmail.com", ErrorMessage = "Check Email Domain")]
         public string Email { get; set; }
 
         [Required]
@@ -21,7 +23,7 @@ namespace SampleProject.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Confirm Password")]
         [Compare("Password",
-            ErrorMessage ="Password and Confirm Password Dos not match")]
+            ErrorMessage = "Password and Confirm Password Dos not match")]
         public string ConfirmPassword { get; set; }
     }
 }
