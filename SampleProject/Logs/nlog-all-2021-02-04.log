@@ -1,0 +1,24 @@
+2021-02-04 20:56:37.9372|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 20:56:38.0199|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 20:56:38.0342|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 20:59:08.5656|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 20:59:08.6045|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 20:59:08.6045|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:28:39.1368|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 22:28:39.1702|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 22:28:39.1738|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:35:02.2707|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 22:35:02.3010|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 22:35:02.3010|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:35:08.5970|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-04 22:36:03.4835|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-04 22:36:06.3247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 22:36:06.3551|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 22:36:06.3551|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:41:07.9624|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 22:41:07.9930|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 22:41:07.9930|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:41:22.4623|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-04 22:41:22.4926|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-04 22:41:22.4926|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-04 22:41:43.4150|WARN|Microsoft.AspNetCore.Identity.RoleManager|Role f90014e8-d920-41db-bcce-91350392d639 validation failed: DuplicateRoleName.
