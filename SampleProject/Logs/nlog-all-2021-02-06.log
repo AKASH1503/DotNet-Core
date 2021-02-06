@@ -458,3 +458,7 @@ Error Number:547,State:0,Class:16
 2021-02-06 20:14:30.3196|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
 2021-02-06 20:14:41.7268|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
 2021-02-06 20:14:48.8128|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Administrator/ManageUserRoles and QS = ?userId=373dccd6-45cf-4d18-b1f5-81fd1c65cbdd
+2021-02-06 20:27:20.1969|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-06 22:14:58.3628|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-06 22:15:05.1615|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Administrator/ManageUserClaims and QS = ?userId=9f329972-3700-4328-9ccf-e0f01b701706
+2021-02-06 22:21:02.8383|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
