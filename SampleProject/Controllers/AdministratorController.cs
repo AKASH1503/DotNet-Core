@@ -76,6 +76,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = ("EditRolePolicy"))]
         public async Task<IActionResult> EditRole(string Id)
         {
             var role = await roleManager.FindByIdAsync(Id);
@@ -102,6 +103,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = ("EditRolePolicy"))]
         public async Task<IActionResult> EditRole(EditRoleViewModel model)
         {
             var role = await roleManager.FindByIdAsync(model.Id);

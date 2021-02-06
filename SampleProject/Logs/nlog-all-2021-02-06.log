@@ -497,3 +497,21 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
 2021-02-06 22:38:16.8866|ERROR|SampleProject.Controllers.AdministratorController|Error Deleting Role
+2021-02-06 22:52:22.0922|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/a and QS = 
+2021-02-06 22:52:27.8309|TRACE|SampleProject.Models.SqlEmplyeeRepository|Trace Log
+2021-02-06 22:52:27.8338|DEBUG|SampleProject.Models.SqlEmplyeeRepository|Debug Log
+2021-02-06 22:52:27.8338|INFO|SampleProject.Models.SqlEmplyeeRepository|Information Log
+2021-02-06 22:52:27.8338|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
+2021-02-06 22:52:27.8338|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
+2021-02-06 22:52:27.8338|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log
+2021-02-06 22:52:30.7554|WARN|SampleProject.Controllers.HomeController|Warning Log
+2021-02-06 22:52:30.7606|ERROR|SampleProject.Controllers.HomeController|Error Log
+2021-02-06 22:52:30.7606|FATAL|SampleProject.Controllers.HomeController|Critical Log
+2021-02-06 22:52:30.7606|TRACE|SampleProject.Models.SqlEmplyeeRepository|Trace Log
+2021-02-06 22:52:30.7606|DEBUG|SampleProject.Models.SqlEmplyeeRepository|Debug Log
+2021-02-06 22:52:30.7721|INFO|SampleProject.Models.SqlEmplyeeRepository|Information Log
+2021-02-06 22:52:30.7721|WARN|SampleProject.Models.SqlEmplyeeRepository|Warning Log
+2021-02-06 22:52:30.7721|ERROR|SampleProject.Models.SqlEmplyeeRepository|Error Log
+2021-02-06 22:52:30.7721|FATAL|SampleProject.Models.SqlEmplyeeRepository|Critical Log
+2021-02-06 22:54:24.4329|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-06 22:54:24.4329|WARN|Microsoft.AspNetCore.Identity.SignInManager|User eac93180-1ab3-42f6-9df1-4fdd042ca770 failed to provide the correct password.
