@@ -44,7 +44,7 @@ namespace SampleProject
                 var Policy = new AuthorizationPolicyBuilder().
                                     RequireAuthenticatedUser().
                                     Build();
-                options.Filters.Add(new AuthorizeFilter(policy:Policy));
+                options.Filters.Add(new AuthorizeFilter(policy: Policy));
             });
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
@@ -78,6 +78,8 @@ namespace SampleProject
 
             app.UseStaticFiles();
             app.UseAuthentication();
+            app.UseAuthorization();
+
             //Calling after UseStaticFiles
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>

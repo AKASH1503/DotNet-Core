@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SampleProject.Models;
 using SampleProject.ViewModels;
@@ -9,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace SampleProject.Controllers
 {
+    //[Authorize(Roles = "Admin,User")]
+    //[Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "User")]
     public class AdministratorController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
