@@ -47,6 +47,14 @@ namespace SampleProject
                 options.Filters.Add(new AuthorizeFilter(policy: Policy));
             });
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role")
+                                .RequireClaim("Create Role"));
+            });
+
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
         }
 

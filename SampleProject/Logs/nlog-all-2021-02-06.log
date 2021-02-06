@@ -462,3 +462,38 @@ Error Number:547,State:0,Class:16
 2021-02-06 22:14:58.3628|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
 2021-02-06 22:15:05.1615|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/Administrator/ManageUserClaims and QS = ?userId=9f329972-3700-4328-9ccf-e0f01b701706
 2021-02-06 22:21:02.8383|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-06 22:37:19.4239|WARN|SampleProject.Controllers.ErrorController|404 Error Occured. Path =/favicon.ico and QS = 
+2021-02-06 22:37:58.1449|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-06 22:37:58.1637|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 373dccd6-45cf-4d18-b1f5-81fd1c65cbdd failed to provide the correct password.
+2021-02-06 22:38:04.2993|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-06 22:38:04.3058|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 373dccd6-45cf-4d18-b1f5-81fd1c65cbdd failed to provide the correct password.
+2021-02-06 22:38:16.4043|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (193ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AspNetRoles]
+WHERE [Id] = @p0 AND [ConcurrencyStamp] = @p1;
+SELECT @@ROWCOUNT;
+2021-02-06 22:38:16.8866|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'SampleProject.Models.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_AspNetUserRoles_AspNetRoles_RoleId". The conflict occurred in database "OurDb", table "dbo.AspNetUserRoles", column 'RoleId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:0b1d0a98-ad00-4625-8437-759f32192637
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-02-06 22:38:16.8866|ERROR|SampleProject.Controllers.AdministratorController|Error Deleting Role
