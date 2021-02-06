@@ -168,3 +168,41 @@
 2021-02-06 14:41:24.4796|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2021-02-06 14:41:24.5512|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-06 14:41:24.5512|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 19:31:04.3598|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 19:31:04.4967|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 19:31:04.5132|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 19:32:20.9850|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 19:32:21.0462|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 19:32:21.0462|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 19:32:43.1391|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (346ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AspNetRoles]
+WHERE [Id] = @p0 AND [ConcurrencyStamp] = @p1;
+SELECT @@ROWCOUNT;
+2021-02-06 19:32:43.5861|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'SampleProject.Models.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_AspNetUserRoles_AspNetRoles_RoleId". The conflict occurred in database "OurDb", table "dbo.AspNetUserRoles", column 'RoleId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ba86eefd-f532-404b-9ecd-3673f7c0b59b
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-02-06 19:32:43.8895|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

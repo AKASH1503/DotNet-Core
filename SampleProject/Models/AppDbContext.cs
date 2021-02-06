@@ -19,6 +19,11 @@ namespace SampleProject.Models
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.seed();
+
+            foreach (var foreignkey in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                foreignkey.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
     }
 }
