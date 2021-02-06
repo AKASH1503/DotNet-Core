@@ -79,3 +79,23 @@
 2021-02-06 10:45:53.3417|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2021-02-06 10:45:53.4048|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-06 10:45:53.4117|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:59:24.0801|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:59:24.1449|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:59:24.1449|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 11:00:02.9503|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 11:00:03.0304|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 11:00:03.0304|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 11:00:48.4738|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 11:00:48.5419|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 11:00:48.5508|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 11:06:11.7433|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 11:06:11.8109|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 11:06:11.8172|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 11:11:03.5264|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 11:11:03.5997|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 11:11:03.5997|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 11:11:13.7069|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'AccessDenied' was not found. Searched locations: /Views/Account/AccessDenied.cshtml, /Views/Shared/AccessDenied.cshtml, /Pages/Shared/AccessDenied.cshtml
+2021-02-06 11:11:13.7866|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-06 11:11:33.7904|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 11:11:33.8610|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 11:11:33.8610|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject

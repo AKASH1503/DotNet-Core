@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace SampleProject.Controllers
 {
     //[Authorize(Roles = "Admin,User")]
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     //[Authorize(Roles = "Admin")]
     //[Authorize(Roles = "User")]
     public class AdministratorController : Controller
@@ -189,6 +189,5 @@ namespace SampleProject.Controllers
 
             return RedirectToAction("EditRole", new { Id = roleId });
         }
-
     }
 }
