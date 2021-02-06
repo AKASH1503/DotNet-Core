@@ -1,0 +1,35 @@
+2021-02-06 09:55:51.9553|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 09:55:52.1497|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 09:55:52.1497|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 09:57:31.9748|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 09:57:32.0508|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 09:57:32.0508|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 09:57:44.0411|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-06 09:58:30.3398|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 09:58:30.4528|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 09:58:30.4528|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 09:59:12.8235|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 09:59:12.9307|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 09:59:12.9404|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:02:46.1051|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:02:46.2233|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:02:46.2337|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:05:25.6198|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:05:25.7336|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:05:25.7436|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:07:25.8034|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:07:25.9117|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:07:25.9347|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:08:08.6951|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-06 10:09:03.9129|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:09:04.0297|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:09:04.0421|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:18:51.5060|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:18:51.6201|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:18:51.6308|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:28:38.2428|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:28:38.3646|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:28:38.3754|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-06 10:29:06.2286|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-06 10:29:06.3580|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-06 10:29:06.3716|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject

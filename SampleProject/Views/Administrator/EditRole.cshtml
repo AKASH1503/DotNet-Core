@@ -49,9 +49,13 @@
                 <h5 class="card-title">Non At The Movement</h5>
             }
         </div>
-        <div class="card-footer">
-            <button href="#" class="btn btn-primary" style="width:auto">Add User</button>
-            <button href="#" class="btn btn-primary" style="width:auto">Remove User</button>
-        </div>
     </div>
 </form>
+<div class="card-footer">
+    @*<button asp-action="EditUsersInRole" asp-route-roleId="@Model.Id"
+                class="btn btn-primary" style="width:auto">
+            Add / Remove User
+        </button>*@
+    <a class="btn btn-primary" asp-action="EditUsersInRole" style="width:auto"
+       asp-controller="Administrator" asp-route-roleId="@Model.Id">Add / Remove User</a>
+</div>
