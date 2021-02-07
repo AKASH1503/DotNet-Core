@@ -96,8 +96,8 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Adm
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ListRoles.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\EditRole.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\EditUsersInRole.cshtml.g.cs
-D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ListUsers.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\EditUser.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ManageUserRoles.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ManageUserClaims.cshtml.g.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\AccessDenied.cshtml.g.cs

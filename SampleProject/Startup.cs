@@ -48,6 +48,11 @@ namespace SampleProject
             });
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
 
+            services.ConfigureApplicationCookie(options=>
+            {
+                options.AccessDeniedPath = new PathString("/Administrator/AccessDenied");
+            });
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("DeleteRolePolicy",

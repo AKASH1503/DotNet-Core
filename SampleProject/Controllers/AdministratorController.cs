@@ -449,5 +449,11 @@ namespace SampleProject.Controllers
             return RedirectToAction("EditUser", new { Id = model.UserID });
         }
 
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
