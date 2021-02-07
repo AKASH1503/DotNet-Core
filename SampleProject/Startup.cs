@@ -68,6 +68,9 @@ namespace SampleProject
 
             services.AddSingleton<IAuthorizationHandler,
                        CanEditOnlyOtherAdminRolesAndClaimsHandler>();
+            services.AddSingleton<IAuthorizationHandler,
+                       SuperAdminHandler>();
+
 
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
         }
