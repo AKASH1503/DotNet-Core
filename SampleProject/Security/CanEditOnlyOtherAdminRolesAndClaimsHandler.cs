@@ -30,7 +30,10 @@ namespace SampleProject.Security
             {
                 context.Succeed(requirement);
             }
-
+            else
+            {
+                context.Fail();
+            }
             return Task.CompletedTask;
         }
     }

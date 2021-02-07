@@ -61,6 +61,7 @@ namespace SampleProject
 
                 options.AddPolicy("EditRolePolicy",
                     policy => policy.AddRequirements(new ManageAdminRolesAndClaims()));
+                options.InvokeHandlersAfterFailure = false;
 
                 options.AddPolicy("AdminRolePolicy",
                     policy => policy.RequireRole("Admin"));
