@@ -101,3 +101,7 @@ D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Adm
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ManageUserRoles.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\ManageUserClaims.cshtml.g.cs
 D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\AccessDenied.cshtml.g.cs
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\cSharp\Core\DotNet-Core\SampleProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginCallback.cshtml.g.cs

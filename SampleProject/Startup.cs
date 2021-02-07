@@ -47,6 +47,14 @@ namespace SampleProject
                                     Build();
                 options.Filters.Add(new AuthorizeFilter(policy: Policy));
             });
+
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    options.ClientId = "351570355221-cabpdbick34d4mfdkfj96ipav2qt9s5u.apps.googleusercontent.com";
+                    options.ClientSecret = "YXge2tIpWM_vm-DvSnUiqnbs";
+                });
+
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
 
             services.ConfigureApplicationCookie(options =>
