@@ -48,7 +48,7 @@ namespace SampleProject
             });
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
 
-            services.ConfigureApplicationCookie(options=>
+            services.ConfigureApplicationCookie(options =>
             {
                 options.AccessDeniedPath = new PathString("/Administrator/AccessDenied");
             });
@@ -59,7 +59,7 @@ namespace SampleProject
                     policy => policy.RequireClaim("Delete Role"));
 
                 options.AddPolicy("EditRolePolicy",
-                    policy => policy.RequireClaim("Edit Role"));
+                    policy => policy.RequireClaim("Edit Role", "true"));
 
                 options.AddPolicy("AdminRolePolicy",
                     policy => policy.RequireClaim("Admin"));

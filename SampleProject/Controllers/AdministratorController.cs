@@ -150,7 +150,7 @@ namespace SampleProject.Controllers
                 Email = user.Email,
                 UserName = user.UserName,
                 City = user.city,
-                Claims = userClaims.Select(x => x.Value).ToList(),
+                Claims = userClaims.Select(x => x.Type + " : " + x.Value).ToList(),
                 Roles = userRoles.Select(x => x).ToList()
             };
 
@@ -411,7 +411,7 @@ namespace SampleProject.Controllers
                     ClaimType = claim.Type
                 };
 
-                if (existingUserClaims.Any(c => c.Type == claim.Type))
+                if (existingUserClaims.Any(c => c.Type == claim.Type && c.Value == "true"))
                 {
                     userClaim.IsSlected = true;
                 }
@@ -438,7 +438,7 @@ namespace SampleProject.Controllers
                 ModelState.AddModelError("", "Cannot remove existing claims");
                 return View(model);
             }
-            result = await userManager.AddClaimsAsync(user, model.Claims.Where(x => x.IsSlected).Select(y => new Claim(y.ClaimType, y.ClaimType)));
+            result = await userManager.AddClaimsAsync(user, model.Claims.Select(y => new Claim(y.ClaimType, y.IsSlected ? "true" : "false")));
 
             if (!result.Succeeded)
             {
