@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Authorization;
+using SampleProject.Security;
 
 namespace SampleProject
 {
@@ -59,14 +60,14 @@ namespace SampleProject
                     policy => policy.RequireClaim("Delete Role"));
 
                 options.AddPolicy("EditRolePolicy",
-                    policy => policy.RequireAssertion(context =>
-                    context.User.IsInRole("Admin") &&
-                    context.User.HasClaim(claim => claim.Type == "Edit Role" && claim.Value == "true") ||
-                    context.User.IsInRole("SuperAdmin")));
+                    policy => policy.AddRequirements(new ManageAdminRolesAndClaims()));
 
                 options.AddPolicy("AdminRolePolicy",
                     policy => policy.RequireRole("Admin"));
             });
+
+            services.AddSingleton<IAuthorizationHandler,
+                       CanEditOnlyOtherAdminRolesAndClaimsHandler>();
 
             services.AddScoped<IEmployeeRepository, SqlEmplyeeRepository>();
         }

@@ -17,7 +17,7 @@ namespace SampleProject.Controllers
     //[Authorize(Roles = "Admin")]
     //[Authorize(Roles = "Admin")]
     //[Authorize(Roles = "User")]
-    [Authorize(Policy = "AdminRolePolicy")]
+    //[Authorize(Policy = "AdminRolePolicy")]
     public class AdministratorController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
@@ -104,7 +104,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
-        [Authorize(Policy = ("EditRolePolicy"))]
+        //[Authorize(Policy = ("EditRolePolicy"))]
         public async Task<IActionResult> EditRole(EditRoleViewModel model)
         {
             var role = await roleManager.FindByIdAsync(model.Id);
@@ -326,6 +326,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = ("EditRolePolicy"))]
         public async Task<IActionResult> ManageUserRoles(string userId)
         {
             ViewBag.userId = userId;
@@ -359,6 +360,7 @@ namespace SampleProject.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = ("EditRolePolicy"))]
         public async Task<IActionResult> ManageUserRoles(List<UserRolesViewModel> model, string userId)
         {
             var user = await userManager.FindByIdAsync(userId);
