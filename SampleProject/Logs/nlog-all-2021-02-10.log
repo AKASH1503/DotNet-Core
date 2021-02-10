@@ -225,3 +225,25 @@
 2021-02-10 10:57:15.1387|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2021-02-10 10:57:15.1700|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-10 10:57:15.1728|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:41:23.3950|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:41:23.6062|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:41:23.6175|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:43:46.2044|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:43:46.2352|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:43:46.2352|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:53:29.8595|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:53:29.8896|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:53:29.8928|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:54:38.5687|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:54:38.5996|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:54:38.5996|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:55:08.0528|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:55:08.0970|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:55:08.0970|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 11:55:47.7097|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 11:55:47.7407|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 11:55:47.7407|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 12:02:56.0015|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 12:02:56.0318|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 12:02:56.0318|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 12:03:03.3563|WARN|SampleProject.Controllers.AccountController|https://localhost:44332/Account/ResetPassword?email=rasalakash2@gmail.com&token=CfDJ8GGnP0%2FL391LjZskuRUfZaaqd5SaPY%2FVIs%2FyDu3LCxnUwN6ZFnDGtPlF3EyTxXP%2FO2F6DromYVswThQtnGVnCJm9g3saGU9vr%2B0%2BqxzpBKJ6m7bvvc8F2Z6bXeaRuwz54ZyjwS0wnhSl%2BA%2B0Tbz6hQBsswzLo%2FVcY4CybTeOq7ZHBVY%2FWvyrpxQJTrA5dp9B66TeKaaq0TMC0dllcUIxlcjQ1p2fPlSFxweGMwvr1Bkn
