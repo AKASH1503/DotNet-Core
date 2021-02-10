@@ -197,3 +197,31 @@
 2021-02-10 10:07:06.6757|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-10 10:07:06.6757|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
 2021-02-10 10:07:20.0586|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 10:16:10.0386|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:16:10.0947|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:16:10.0947|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:18:56.4652|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:18:56.4978|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:18:56.5021|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:19:17.3031|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 71793254-8844-419f-bbb7-07b529171242 cannot sign in without a confirmed email.
+2021-02-10 10:19:17.3788|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 10:21:08.2343|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:21:08.2705|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:21:08.2705|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:21:21.9411|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 71793254-8844-419f-bbb7-07b529171242 cannot sign in without a confirmed email.
+2021-02-10 10:27:35.9876|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:27:36.0185|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:27:36.0185|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:27:54.8374|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-10 10:27:54.8630|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 71793254-8844-419f-bbb7-07b529171242 cannot sign in without a confirmed email.
+2021-02-10 10:47:54.0345|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:47:54.0656|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:47:54.0656|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:48:37.7782|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 10:49:27.8023|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:49:27.8390|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:49:27.8390|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 10:49:56.9122|WARN|SampleProject.Controllers.AccountController|https://localhost:44332/Account/ConfirmEmail?userId=8af0245b-f3ca-48d7-b623-ff82b8a13731&token=CfDJ8GGnP0%2FL391LjZskuRUfZaYgZt2Kztn%2Bc7ejcPbv0b2jAba4PH7Oqaxi3plHuGHonkpJSDbThtcM6VjxjNgxbwGXhBUjPr5ug1SRWhqDsrYwxAK8GxaRAsXSlJq5cC%2Fw3fPshPXnthHsYWY431rYmJwFDRGxw3PzYS6kDJEQ0aGJZfK8LKpgjgrMpUFVYGBvnGu6pSAm2CQ%2FIaTF8umkl5lgHnaZRmTIDqOQY3q4IFuJo0sA9UJP6h9bsMYS%2FZz2vg%3D%3D
+2021-02-10 10:57:15.1387|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 10:57:15.1700|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 10:57:15.1728|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject

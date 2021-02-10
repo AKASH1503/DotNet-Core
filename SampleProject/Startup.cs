@@ -36,8 +36,10 @@ namespace SampleProject
             {
                 options.Password.RequiredLength = 5;
                 options.Password.RequiredUniqueChars = 1;
+                options.SignIn.RequireConfirmedEmail = true;
             })
-                .AddEntityFrameworkStores<AppDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddMvc(options =>
             {
