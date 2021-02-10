@@ -51,8 +51,8 @@ namespace SampleProject
             services.AddAuthentication()
                 .AddGoogle(options =>
                 {
-                    options.ClientId = "351570355221-cabpdbick34d4mfdkfj96ipav2qt9s5u.apps.googleusercontent.com";
-                    options.ClientSecret = "YXge2tIpWM_vm-DvSnUiqnbs";
+                    options.ClientId = "id";
+                    options.ClientSecret = "secret key";
                 });
 
             //services.AddMvcCore(options => options.EnableEndpointRouting = false);
