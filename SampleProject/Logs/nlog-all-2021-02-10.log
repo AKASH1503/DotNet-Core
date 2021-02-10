@@ -247,3 +247,49 @@
 2021-02-10 12:02:56.0318|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-02-10 12:02:56.0318|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
 2021-02-10 12:03:03.3563|WARN|SampleProject.Controllers.AccountController|https://localhost:44332/Account/ResetPassword?email=rasalakash2@gmail.com&token=CfDJ8GGnP0%2FL391LjZskuRUfZaaqd5SaPY%2FVIs%2FyDu3LCxnUwN6ZFnDGtPlF3EyTxXP%2FO2F6DromYVswThQtnGVnCJm9g3saGU9vr%2B0%2BqxzpBKJ6m7bvvc8F2Z6bXeaRuwz54ZyjwS0wnhSl%2BA%2B0Tbz6hQBsswzLo%2FVcY4CybTeOq7ZHBVY%2FWvyrpxQJTrA5dp9B66TeKaaq0TMC0dllcUIxlcjQ1p2fPlSFxweGMwvr1Bkn
+2021-02-10 19:45:13.1202|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:45:13.1521|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:45:13.1521|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:46:18.7816|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:46:18.8139|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:46:18.8139|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:47:04.4911|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:47:04.5216|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:47:04.5216|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:47:05.4589|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 19:47:47.2519|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:47:47.2814|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:47:47.2814|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:47:47.6020|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 19:49:22.5279|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:49:22.5586|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:49:22.5586|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:49:22.8922|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 19:49:56.1850|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:49:56.2801|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:49:56.2883|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:51:54.9716|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:51:55.0030|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:51:55.0030|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:57:03.9942|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:57:04.0238|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:57:04.0238|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:58:30.9609|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:58:30.9906|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:58:30.9906|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:58:32.6404|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2021-02-10 19:58:45.2440|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Reset Password Confirmation' was not found. Searched locations: /Views/Account/Reset Password Confirmation.cshtml, /Views/Shared/Reset Password Confirmation.cshtml, /Pages/Shared/Reset Password Confirmation.cshtml
+2021-02-10 19:58:45.2793|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-10 19:59:18.3915|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 19:59:18.4222|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 19:59:18.4222|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 19:59:38.4070|WARN|Microsoft.AspNetCore.Identity.UserManager|VerifyUserTokenAsync() failed with purpose: ResetPassword for user.
+2021-02-10 20:00:13.0095|WARN|Microsoft.AspNetCore.Identity.UserManager|VerifyUserTokenAsync() failed with purpose: ResetPassword for user.
+2021-02-10 20:00:33.0711|WARN|Microsoft.AspNetCore.Identity.UserManager|VerifyUserTokenAsync() failed with purpose: ResetPassword for user.
+2021-02-10 20:00:46.4331|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-10 20:00:46.5028|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-10 20:00:46.5028|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-10 20:01:16.3113|WARN|Microsoft.AspNetCore.Identity.UserManager|VerifyUserTokenAsync() failed with purpose: ResetPassword for user.
+2021-02-10 20:01:53.3475|WARN|SampleProject.Controllers.AccountController|https://localhost:44332/Account/ResetPassword?email=rasalakash2@gmail.com&token=CfDJ8GGnP0%2FL391LjZskuRUfZaZr4YED11wlQUCQ5Jzi02eQnWVgA5krJvxWI5204kq4nmDcQEdexTJUO55ZOLPVxu0EcRfGX93lmPiDDI2lPBCm16S9k9MG91f4vhRKcm79DdJ%2FIcWfTZG2ZrqB18T7v%2Bd%2B3%2Be3662xNvYgAuyUDJ1uKxAI41w3fM8trDG9Q6fN64S8v4z4xBVHmxdioau4yFqLYhl6f1Wy81A6sLNYS5os
+2021-02-10 20:02:47.7796|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-10 20:02:47.7833|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 8af0245b-f3ca-48d7-b623-ff82b8a13731 failed to provide the correct password.
