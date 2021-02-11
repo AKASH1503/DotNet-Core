@@ -1,0 +1,26 @@
+2021-02-11 19:11:10.8468|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:11:10.9556|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:11:10.9908|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:15:54.3826|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:15:54.4520|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:15:54.4581|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:17:40.3024|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:17:40.3744|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:17:40.3814|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:20:01.6775|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:20:01.7438|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:20:01.7438|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:20:24.4555|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'ChangePasswordConfirmation' was not found. Searched locations: /Views/Account/ChangePasswordConfirmation.cshtml, /Views/Shared/ChangePasswordConfirmation.cshtml, /Pages/Shared/ChangePasswordConfirmation.cshtml
+2021-02-11 19:20:25.0430|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-11 19:23:54.6684|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:23:54.7139|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:23:54.7139|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:24:30.1014|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-11 19:24:30.1014|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 8af0245b-f3ca-48d7-b623-ff82b8a13731 failed to provide the correct password.
+2021-02-11 19:25:38.3491|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-11 19:25:38.3491|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 71793254-8844-419f-bbb7-07b529171242 cannot sign in without a confirmed email.
+2021-02-11 19:26:44.0109|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 19:26:44.0411|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 19:26:44.0411|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\cSharp\Core\DotNet-Core\SampleProject
+2021-02-11 19:26:45.5961|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-02-11 19:26:45.6145|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 71793254-8844-419f-bbb7-07b529171242 cannot sign in without a confirmed email.

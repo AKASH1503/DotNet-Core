@@ -4,10 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SampleProject.Models;
+using SampleProject.Security;
 using SampleProject.ViewModels;
 
 namespace SampleProject.Controllers
@@ -20,6 +22,7 @@ namespace SampleProject.Controllers
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IHostingEnvironment hostingEnvironment;
         private readonly ILogger logger;
+        private readonly IDataProtector protector;
 
         /// <summary>
         /// Its is Controctur Injection
@@ -27,11 +30,14 @@ namespace SampleProject.Controllers
         /// <param name="employeeRepository"></param>
         public HomeController(IEmployeeRepository employeeRepository,
                                 IHostingEnvironment hostingEnvironment,
-                                ILogger<HomeController> logger)
+                                ILogger<HomeController> logger,
+                                IDataProtectionProvider dtaProtectionprotector,
+                                DataProtectionPurposeString dataProtectionPurposeString)
         {
             _employeeRepository = employeeRepository;
             this.hostingEnvironment = hostingEnvironment;
             this.logger = logger;
+            protector = dtaProtectionprotector.CreateProtector(dataProtectionPurposeString.EmployeeIdRouteValue);
         }
 
         //[Route("")]
@@ -41,7 +47,12 @@ namespace SampleProject.Controllers
         [AllowAnonymous]
         public ViewResult Index()
         {
-            var model = _employeeRepository.GetAllEmployee(); ;
+            var model = _employeeRepository.GetAllEmployee()
+                            .Select(e =>
+                            {
+                                e.EncryptedId = protector.Protect(e.Id.ToString());
+                                return e;
+                            });
             return View(model);
 
         }
@@ -49,7 +60,7 @@ namespace SampleProject.Controllers
         //[Route("Details/{id?}")]
         //[Route("[action]/{id?}")]
         //[Route("{id?}")]
-        public ViewResult Details(int? id)
+        public ViewResult Details(string id)
         {
             logger.LogTrace("Trace Log");
             logger.LogDebug("Debug Log");
@@ -57,13 +68,14 @@ namespace SampleProject.Controllers
             logger.LogWarning("Warning Log");
             logger.LogError("Error Log");
             logger.LogCritical("Critical Log");
+            int employeeID = Convert.ToInt32(protector.Unprotect(id));
 
-            Employee employee = _employeeRepository.GetEmployee(id ?? 1);
+            Employee employee = _employeeRepository.GetEmployee(employeeID);
 
             if (employee == null)
             {
                 Response.StatusCode = 404;
-                return View("EmployeeNotFound", id.Value);
+                return View("EmployeeNotFound", employeeID);
             }
 
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()

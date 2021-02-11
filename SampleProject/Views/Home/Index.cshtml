@@ -34,7 +34,7 @@
             </div>
             <img class="card-img-top imageThumbnail" src="@photoPath" asp-append-version="true" />
             <div class="card-footer text-center">
-                <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id"
+                <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.EncryptedId"
                    class="btn btn-primary m-1">View</a>
 
                 <a asp-action="edit" asp-controller="home" asp-route-id="@employee.Id"
