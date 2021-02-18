@@ -1,3 +1,12 @@
 SampleProject/Logs/
 SampleProject/obj/Debug/netcoreapp3.1/
 SampleProject/bin/Debug/netcoreapp3.1/
+.vs/
+*.user
+*.suo
+*.cache
+*.docstates
+*.psess
+*.vsp
+*.pidb
+*.userprefs
